@@ -1,0 +1,91 @@
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-tmux/develop/src/assets/nord-tmux-banner.svg"/></p>
+
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-tmux/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tmux.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a></p>
+
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://tmux.github.io">tmux</a> color theme.</p>
+
+<p align="center">Designed for a fluent and clear workflow.<br>
+Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+
+---
+
+ build to run in GUI- and terminal mode with support for many third-party plugins and styles for [lightline.vim](https://github.com/itchyny/lightline.vim) and  [vim-airline](https://github.com/vim-airline/vim-airline).
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-top.png"/></p>
+
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
+      - [tmux Plugin Manager](#tmux-plugin-manager)
+      - [GitHub Repository Clone](#gitHub-repository-clone)
+    - [Activation](#activation)
+  - [Features](#features)
+  - [Development](#development)
+    - [Contribution](#contribution)
+
+## Getting started
+### Installation
+**NOTE**: Nord tmux is a 16 colorspace theme and **MUST** be used with the associated terminal emulator theme in order to work properly!  
+Make sure to install one of the currently supported terminal themes listed below **BEFORE** installing Nord tmux.
+
+[![Nord GNOME Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gnome-terminal-banner.svg)](https://github.com/arcticicestudio/nord-gnome-terminal)  
+[![Nord Guake](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-guake-banner.svg)](https://github.com/arcticicestudio/nord-guake)  
+[![Nord Hyper](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-hyper-banner.svg)](https://github.com/arcticicestudio/nord-hyper)  
+[![Nord iTerm2](https://cdn.rawgit.com/arcticicestudio/nord/0971858f496823fd916f3368961f16ef2c7aad1e/src/assets/nord-iterm2-banner.svg)](https://github.com/arcticicestudio/nord-iterm2)  
+[![Nord Konsole](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-konsole-banner.svg)](https://github.com/arcticicestudio/nord-konsole)  
+[![Nord Mintty](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-mintty-banner.svg)](https://github.com/arcticicestudio/nord-mintty)  
+[![Nord PuTTY](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-putty-banner.svg)](https://github.com/arcticicestudio/nord-putty)  
+[![Nord Terminal.app](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminal-app-banner.svg)](https://github.com/arcticicestudio/nord-terminal-app)  
+[![Nord Terminator](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminator-banner.svg)](https://github.com/arcticicestudio/nord-terminator)  
+[![Nord Tilix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg)](https://github.com/arcticicestudio/nord-tilix)  
+[![Nord Termite](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-termite-banner.svg)](https://github.com/arcticicestudio/nord-termite)  
+[![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
+[![Nord Xresources](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg)](https://github.com/arcticicestudio/nord-xresources)  
+
+#### tmux Plugin Manager
+It is recommended to install Nord tmux via [`tpm`](https://github.com/tmux-plugins/tpm).  
+Add Nord tmux to your `~/.tmux.conf`
+```sh
+set -g @plugin 'arcticicestudio/nord-tmux'
+```
+and press the default key binding `prefix` + <kbd>I</kbd> to fetch the plugin and source it.
+
+#### Manual
+[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`nord.conf`](https://github.com/arcticicestudio/nord-tmux/blob/develop/src/nord.conf) theme file to any directory where `~/.tmux/themes/nord-tmux/nord.conf` is the recommended path.
+
+Source the downloaded theme by adding it to your `~/.tmux.conf`
+```sh
+source-file "~/.tmux/themes/nord-tmux/nord.conf"
+```
+
+##### <img src="https://github.com/favicon.ico" width=16 height=16/> [GitHub Repository Clone](https://help.github.com/articles/cloning-a-repository)
+Clone the Nord tmux repository
+```sh
+git clone https://github.com/arcticicestudio/nord-tmux ~/.tmux/themes/nord-tmux
+```
+and source the downloaded theme by adding it to your `~/.tmux.conf`
+```sh
+source-file "~/.tmux/themes/nord-tmux/nord.conf"
+```
+
+### Activation
+Reload your `~/.tmux.conf` file
+```sh
+tmux source-file `~/.tmux.conf`
+```
+
+## Features
+<p align="center"><strong>Optimized styles for command bar- and widgets</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-command-bar.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-clock-mode.png"/></p>
+
+<p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
+
+## Development
+[![](https://img.shields.io/badge/Changelog-0.0.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-tmux/blob/v0.0.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
+
+### Contribution
+Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-tmux/issues).
+
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
+
+<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2017 Arctic Ice Studio</p>
+
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg"/></a></p>
