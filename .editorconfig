@@ -1,0 +1,18 @@
+# ++++++++++++++++++++++
+# + Base Configuration +
+# ++++++++++++++++++++++
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 160
+trim_trailing_whitespace = true
+
+# +++++++++++++
+# + Languages +
+# +++++++++++++
+# +++ Markdown +++
+[*.{md,gfm}]
+trim_trailing_whitespace = false
