@@ -9,8 +9,6 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ---
 
- build to run in GUI- and terminal mode with support for many third-party plugins and styles for [lightline.vim](https://github.com/itchyny/lightline.vim) and  [vim-airline](https://github.com/vim-airline/vim-airline).
-
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-top.png"/></p>
 
   - [Getting started](#getting-started)
