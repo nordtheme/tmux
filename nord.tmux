@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # title      Nord tmux TPM Loader                         +
 # project    nord-tmux                                    +
