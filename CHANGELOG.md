@@ -4,6 +4,11 @@
 
 ---
 
+# 0.1.1
+*2017-04-21*
+## Bug Fixes
+❯ Fixed the plugin to be not loadable due to the missing `#!/usr/bin/env bash` hashbang and `+x` permission flag for the plugin loader [`nord.tmux`](https://github.com/arcticicestudio/nord-tmux/blob/develop/nord.tmux) which caused `tpm` to exit with code `126`. (@arcticicestudio, #4, c049da5e)
+
 # 0.1.0
 *2017-04-20*
 ## Features

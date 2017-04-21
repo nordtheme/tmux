@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # title      Nord tmux TPM Loader                         +
 # project    nord-tmux                                    +
@@ -13,7 +14,7 @@
 # tmux
 #   https://tmux.github.io
 NORD_TMUX_COLOR_THEME_FILE=src/nord.conf
-NORD_TMUX_VERSION=0.1.0
+NORD_TMUX_VERSION=0.1.1
 _current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 __cleanup() {
