@@ -14,7 +14,7 @@
 # tmux
 #   https://tmux.github.io
 NORD_TMUX_COLOR_THEME_FILE=src/nord.conf
-NORD_TMUX_VERSION=0.1.1
+NORD_TMUX_VERSION=0.2.0
 _current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 __cleanup() {
