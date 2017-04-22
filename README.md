@@ -17,6 +17,8 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
       - [GitHub Repository Clone](#gitHub-repository-clone)
     - [Activation](#activation)
   - [Features](#features)
+  - [Plugin Support](#plugin-support)
+    - [tmux-prefix-highlight](#tmux-prefix-highlight)
   - [Development](#development)
     - [Contribution](#contribution)
 
@@ -75,6 +77,12 @@ tmux source-file `~/.tmux.conf`
 <p align="center"><strong>Optimized styles for command bar- and widgets</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-command-bar.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-clock-mode.png"/></p>
 
 <p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
+
+## Plugin Support
+### [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight)
+Supports the *prefix*- and `copy-mode` status indicator.
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight-copy-mode.png"/></p>
 
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.1.1-81A1C1.svg)](https://github.com/arcticicestudio/nord-tmux/blob/v0.1.1/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
