@@ -17,6 +17,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
       - [GitHub Repository Clone](#gitHub-repository-clone)
     - [Activation](#activation)
   - [Features](#features)
+  - [Configuration](#configuration)
   - [Plugin Support](#plugin-support)
     - [tmux-prefix-highlight](#tmux-prefix-highlight)
   - [Development](#development)
@@ -79,7 +80,8 @@ tmux source-file `~/.tmux.conf`
 <p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
 
 ## Configuration
-Disable the default status bar content:
+This theme has default status bar content (including the powerline-styled
+background arrows). You can disable the included status bar content:
 ```sh
 set -g @nord_tmux_show_status_content "0"
 ```
