@@ -78,6 +78,12 @@ tmux source-file `~/.tmux.conf`
 
 <p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
 
+## Configuration
+Disable the default status bar content:
+```sh
+set -g @nord_tmux_show_status_content "0"
+```
+
 ## Plugin Support
 ### [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight)
 Supports the *prefix*- and `copy-mode` status indicator.
