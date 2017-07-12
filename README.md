@@ -17,6 +17,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
       - [GitHub Repository Clone](#gitHub-repository-clone)
     - [Activation](#activation)
   - [Features](#features)
+  - [Configuration](#configuration)
   - [Plugin Support](#plugin-support)
     - [tmux-prefix-highlight](#tmux-prefix-highlight)
   - [Development](#development)
@@ -50,9 +51,9 @@ set -g @plugin 'arcticicestudio/nord-tmux'
 and press the default key binding `prefix` + <kbd>I</kbd> to fetch the plugin and source it.
 
 #### Manual
-[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`nord.conf`](https://github.com/arcticicestudio/nord-tmux/blob/develop/src/nord.conf) theme file to any directory where `~/.tmux/themes/nord-tmux/nord.conf` is the recommended path.
+[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`*.conf` theme files](https://github.com/arcticicestudio/nord-tmux/tree/develop/src) to any directory where `~/.tmux/themes/nord-tmux` is the recommended path.
 
-Source the downloaded theme by adding it to your `~/.tmux.conf`
+Add the downloaded theme to your `~/.tmux.conf` by sourcing the main file `nord.conf`:
 ```sh
 source-file "~/.tmux/themes/nord-tmux/nord.conf"
 ```
@@ -77,6 +78,13 @@ tmux source-file `~/.tmux.conf`
 <p align="center"><strong>Optimized styles for command bar- and widgets</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-command-bar.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-feature-clock-mode.png"/></p>
 
 <p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
+
+## Configuration
+This theme has default status bar content (including the powerline-styled
+background arrows). You can disable the included status bar content:
+```sh
+set -g @nord_tmux_show_status_content "0"
+```
 
 ## Plugin Support
 ### [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight)
