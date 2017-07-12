@@ -51,9 +51,9 @@ set -g @plugin 'arcticicestudio/nord-tmux'
 and press the default key binding `prefix` + <kbd>I</kbd> to fetch the plugin and source it.
 
 #### Manual
-[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`nord.conf`](https://github.com/arcticicestudio/nord-tmux/blob/develop/src/nord.conf) theme file to any directory where `~/.tmux/themes/nord-tmux/nord.conf` is the recommended path.
+[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`*.conf` theme files](https://github.com/arcticicestudio/nord-tmux/tree/develop/src) to any directory where `~/.tmux/themes/nord-tmux` is the recommended path.
 
-Source the downloaded theme by adding it to your `~/.tmux.conf`
+Add the downloaded theme to your `~/.tmux.conf` by sourcing the main file `nord.conf`:
 ```sh
 source-file "~/.tmux/themes/nord-tmux/nord.conf"
 ```
