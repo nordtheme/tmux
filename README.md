@@ -18,6 +18,8 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
     - [Activation](#activation)
   - [Features](#features)
   - [Configuration](#configuration)
+    - [Disable status content](#disable-status-content)
+      - [No patched fonts](#no-patched-fonts)
   - [Plugin Support](#plugin-support)
     - [tmux-prefix-highlight](#tmux-prefix-highlight)
   - [Development](#development)
@@ -80,11 +82,27 @@ tmux source-file `~/.tmux.conf`
 <p align="center"><strong>Fits to many terminal applications based on Nord</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-htop.png"/></p>
 
 ## Configuration
-This theme has default status bar content (including the powerline-styled
-background arrows). You can disable the included status bar content:
+
+### Disable status content
+
+By default, this theme provides status bar content (including the powerline-styled
+background arrows).
+
+The status content can be disabled by setting the `@nord_tmux_show_status_content` to `0`:
+
 ```sh
 set -g @nord_tmux_show_status_content "0"
 ```
+
+#### No patched fonts
+
+The default status content makes use of patched fonts which can be disabled by setting the `@nord_tmux_no_patched_font` variable to `1`:
+
+```sh
+set -g @nord_tmux_no_patched_font "1"
+```
+
+![](https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-config-status-content-no-patched-font.png)
 
 ## Plugin Support
 ### [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight)
