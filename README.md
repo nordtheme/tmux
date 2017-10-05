@@ -14,8 +14,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
   - [Getting started](#getting-started)
     - [Installation](#installation)
       - [tmux Plugin Manager](#tmux-plugin-manager)
-      - [GitHub Repository Clone](#gitHub-repository-clone)
-    - [Activation](#activation)
+      - [Manual](#manual)
   - [Features](#features)
   - [Configuration](#configuration)
     - [Disable status content](#disable-status-content)
@@ -26,9 +25,11 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
     - [Contribution](#contribution)
 
 ## Getting started
+
 ### Installation
-**NOTE**: Nord tmux is a 16 colorspace theme and **MUST** be used with the associated terminal emulator theme in order to work properly!  
-Make sure to install one of the currently supported terminal themes listed below **BEFORE** installing Nord tmux.
+
+**NOTE**: Nord tmux is a 16 colorspace theme and **must** be used with the associated terminal emulator theme in order to work properly!  
+Make sure to install one of the currently supported terminal themes listed below **before** installing Nord tmux.
 
 [![Nord GNOME Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gnome-terminal-banner.svg)](https://github.com/arcticicestudio/nord-gnome-terminal)  
 [![Nord Guake](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-guake-banner.svg)](https://github.com/arcticicestudio/nord-guake)  
@@ -45,33 +46,33 @@ Make sure to install one of the currently supported terminal themes listed below
 [![Nord Xresources](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg)](https://github.com/arcticicestudio/nord-xresources)  
 
 #### tmux Plugin Manager
-It is recommended to install Nord tmux via [`tpm`](https://github.com/tmux-plugins/tpm).  
+
+The recommended method to install Nord tmux is via [`tpm`](https://github.com/tmux-plugins/tpm).
+
 Add Nord tmux to your `~/.tmux.conf`
+
 ```sh
 set -g @plugin 'arcticicestudio/nord-tmux'
 ```
-and press the default key binding `prefix` + <kbd>I</kbd> to fetch the plugin and source it.
+
+and press the default key binding `prefix` + <kbd>I</kbd> to fetch- and install the plugin.
 
 #### Manual
-[Download](https://github.com/arcticicestudio/nord-tmux/releases/latest) the latest version of the [`*.conf` theme files](https://github.com/arcticicestudio/nord-tmux/tree/develop/src) to any directory where `~/.tmux/themes/nord-tmux` is the recommended path.
 
-Add the downloaded theme to your `~/.tmux.conf` by sourcing the main file `nord.conf`:
-```sh
-source-file "~/.tmux/themes/nord-tmux/nord.conf"
-```
+[Clone the repository](https://help.github.com/articles/cloning-a-repository)
 
-##### <img src="https://github.com/favicon.ico" width=16 height=16/> [GitHub Repository Clone](https://help.github.com/articles/cloning-a-repository)
-Clone the Nord tmux repository
 ```sh
 git clone https://github.com/arcticicestudio/nord-tmux ~/.tmux/themes/nord-tmux
 ```
-and source the downloaded theme by adding it to your `~/.tmux.conf`
+
+and source the downloaded theme by adding it to the bottom of your `~/.tmux.conf`.
+
 ```sh
-source-file "~/.tmux/themes/nord-tmux/nord.conf"
+run-shell "~/.tmux/themes/nord-tmux/nord.tmux"
 ```
 
-### Activation
-Reload your `~/.tmux.conf` file
+Reload your `~/.tmux.conf` file to source- and activate the theme.
+
 ```sh
 tmux source-file `~/.tmux.conf`
 ```
