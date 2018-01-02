@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Nord tmux TPM Loader                         +
-# project    nord-tmux                                    +
-# repository https://github.com/arcticicestudio/nord-tmux +
-# author     Arctic Ice Studio                            +
-# email      development@arcticicestudio.com              +
-# copyright  Copyright (C) 2017                           +
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#
-# [References]
-# Nord
-#   https://github.com/arcticicestudio/nord
-# tmux
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord tmux
+# Repository: https://github.com/arcticicestudio/nord-tmux
+# License:    MIT
+# References:
 #   https://tmux.github.io
+
 NORD_TMUX_COLOR_THEME_FILE=src/nord.conf
 NORD_TMUX_VERSION=0.2.0
 NORD_TMUX_STATUS_CONTENT_FILE="src/nord-status-content.conf"
