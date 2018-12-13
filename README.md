@@ -74,7 +74,7 @@ run-shell "~/.tmux/themes/nord-tmux/nord.tmux"
 Reload your `~/.tmux.conf` file to source- and activate the theme.
 
 ```sh
-tmux source-file `~/.tmux.conf`
+tmux source-file ~/.tmux.conf
 ```
 
 ## Features
