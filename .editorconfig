@@ -1,3 +1,10 @@
+# Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2017-present Sven Greb <development@svengreb.de>
+
+# Project:    Nord tmux
+# Repository: https://github.com/arcticicestudio/nord-tmux
+# License:    MIT
+
 # ++++++++++++++++++++++
 # + Base Configuration +
 # ++++++++++++++++++++++
@@ -7,7 +14,7 @@ end_of_line = lf
 indent_size = 2
 indent_style = space
 insert_final_newline = true
-max_line_length = 160
+max_line_length = 120
 trim_trailing_whitespace = true
 
 # +++++++++++++
