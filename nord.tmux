@@ -9,7 +9,7 @@
 #   https://tmux.github.io
 
 NORD_TMUX_COLOR_THEME_FILE=src/nord.conf
-NORD_TMUX_VERSION=0.2.0
+NORD_TMUX_VERSION=0.3.0
 NORD_TMUX_STATUS_CONTENT_FILE="src/nord-status-content.conf"
 NORD_TMUX_STATUS_CONTENT_NO_PATCHED_FONT_FILE="src/nord-status-content-no-patched-font.conf"
 NORD_TMUX_STATUS_CONTENT_OPTION="@nord_tmux_show_status_content"

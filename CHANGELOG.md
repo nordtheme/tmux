@@ -6,6 +6,88 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.3.0
+
+![Release Date: 2019-06-03](https://img.shields.io/badge/Release_Date-2019--06--03-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-vim/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-vim/milestone/4)
+
+## Features
+
+**Nord Docs Transition** — #36 ⇄ #37 (⊶ 6101cf85)
+↠ Transferred all documentations, assets and from „Nord tmux“ to [Nord Docs][nord]
+Please see the [corresponding issue in the Nord Docs repository][nord-docs#153] to get an overview of what has changed for Nord tmux and what has been done to migrate to Nord Docs.
+
+###### Landing Page
+
+<p align="center"><a href="https://www.nordtheme.com/ports/tmux" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58762743-23bed700-8553-11e9-8094-dc82e8eea6bd.png" alt="Preview: Nord tmux Port Project Landing Page"/></a></p>
+
+###### Landing Page Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58762745-29b4b800-8553-11e9-9b2c-076577593a9c.png" alt="Preview: Nord tmux Docs Landing Page"/></a></p>
+
+###### Installation & Activation Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58762754-3f29e200-8553-11e9-88ae-336f7a1ed999.png" alt="Preview: Nord tmux Installation & Activation Docs Page"/></a></p>
+
+###### Configuration Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58762760-451fc300-8553-11e9-861c-1a0925d20d66.png" alt="Preview: Nord tmux Configuration Docs Page"/></a></p>
+
+###### Plugin Support Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/customization" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58762761-4ea92b00-8553-11e9-929a-14dfd6690b36.png" alt="Preview: Nord tmux Plugin Support Docs Page"/></a></p>
+
+**Patched Font Characters** — #5 ⇄ #11 (⊶ 0809657f) by [@petrhosek][gh-user-petrhosek]
+↠ Added a new theme configuration to [disable patched fonts for the default status content][nord-docs-config-font-no-patched] by setting the `@nord_tmux_no_patched_font` variable to `1`.
+It can be used facing rendering problems with incompatible terminals or fonts.
+
+```sh
+set -g @nord_tmux_no_patched_font "1"
+```
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#patched-font-characters" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/src/assets/images/ports/tmux/config-no-patched-font.png"/></a></p>
+
+**Optional Status Bar Content** — #7, #10 ⇄ #8, #12 (⊶ 27754979) by [@tsroten][gh-user-tsroten] and [@rgcr][gh-user-rgcr]
+↠ Added a new theme configuration to [disable the default predefined status bar content][nord-docs-config-default-content], allowing to customize the status content, e.g. adding other plugins or adjust the layout, by setting the `@nord_tmux_show_status_content` variable to `0`:
+
+```sh
+set -g @nord_tmux_show_status_content "0"
+```
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#default-status-bar-content" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/src/assets/images/ports/tmux/config-no-status-bar-content.png"/></a></p>
+
+## Improvements
+
+**Respect User's Status Bar Positioning** — #13 ⇄ #14 (⊶ ee5542c5) by [@drzel][gh-user-drzel]
+↠ Removed the `status-position` property in order to respect the user's preferred status bar positioning configuration instead of overriding it.
+
+**More Spacing** — #16 (⊶ 2da9466c) by [@dylnmc][gh-user-dylnmc]
+↠ Added a space character to the first and last status bar element in order to improve the visual appearance to make it look not so squeezed together.
+
+<p align="center"><p>Before</p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7635158/32998484-6a5ccc88-cd69-11e7-87bd-7b947c977fd1.png"/></p>
+
+<p align="center"><p>After</p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7635158/32998486-6e7240a0-cd69-11e7-8ef1-b3b2d69fea2c.png"/></p>
+
+## Bug Fixes
+
+### Documentation
+
+**Typo In `source-file` Command** — #32 (⊶ 72b0b3fb) by [@rememberYou][gh-user-rememberyou]
+↠ Fixed a typo in the README for the `source-file` command.
+
+## Tasks
+
+### Documentation
+
+**More Spacing** — #16 (⊶ 2da9466c) by [@dylnmc][gh-user-dylnmc]
+↠ Added a space character to the first and last status bar element in order to improve the visual appearance to make it look not so squeezed together.
+
+**MIT License** — #19 ⇄ #20 (⊶ 4d39639a)
+↠ Adapted to the MIT license migration of the Nord project. Detailed information can be found in the main task ticket [arcticicestudio/nord#55][].
+
 # 0.2.0
 
 _2017-04-22_
@@ -44,3 +126,15 @@ Detailed information about features and install instructions can be found in the
 
 _2016-04-20_
 ❯ **Project Initialization**
+
+[arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[gh-user-drzel]: https://github.com/drzel
+[gh-user-dylnmc]: https://github.com/dylnmc
+[gh-user-petrhosek]: https://github.com/petrhosek
+[gh-user-rememberyou]: https://github.com/rememberYou
+[gh-user-rgcr]: https://github.com/rgcr
+[gh-user-tsroten]: https://github.com/tsroten
+[nord-docs-config-default-content]: https://www.nordtheme.com/docs/ports/tmux/configuration#default-status-bar-content
+[nord-docs-config-font-no-patched]: https://www.nordtheme.com/docs/ports/tmux/configuration#patched-font-characters
+[nord-docs#153]: https://github.com/arcticicestudio/nord-docs/pull/153
+[nord]: https://www.nordtheme.com
