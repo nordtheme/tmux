@@ -31,7 +31,7 @@ __load() {
   local status_content=$(tmux show-option -gqv "$NORD_TMUX_STATUS_CONTENT_OPTION")
   local no_patched_font=$(tmux show-option -gqv "$NORD_TMUX_NO_PATCHED_FONT_OPTION")
 
-  if [ $(tmux show-option -gqv "clock-mode-style") == '12' ]; then
+  if [ "$(tmux show-option -gqv "clock-mode-style")" == '12' ]; then
     tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%I:%M %p"
   else
     tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%H:%M"
