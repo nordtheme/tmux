@@ -22,6 +22,7 @@ __cleanup() {
   unset -v NORD_TMUX_STATUS_CONTENT_OPTION NORD_TMUX_NO_PATCHED_FONT_OPTION
   unset -v _current_dir
   unset -f __load __cleanup
+  tmux set-environment -gu NORD_TMUX_STATUS_TIME_FORMAT
 }
 
 __load() {
@@ -29,6 +30,12 @@ __load() {
 
   local status_content=$(tmux show-option -gqv "$NORD_TMUX_STATUS_CONTENT_OPTION")
   local no_patched_font=$(tmux show-option -gqv "$NORD_TMUX_NO_PATCHED_FONT_OPTION")
+
+  if [ "$(tmux show-option -gqv "clock-mode-style")" == '12' ]; then
+    tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%I:%M %p"
+  else
+    tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%H:%M"
+  fi
 
   if [ "$status_content" != "0" ]; then
     if [ "$no_patched_font" != "1" ]; then
