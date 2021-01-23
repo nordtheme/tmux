@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
 # Copyright (C) 2017-present Sven Greb <development@svengreb.de>
 
@@ -14,7 +14,7 @@ NORD_TMUX_STATUS_CONTENT_FILE="src/nord-status-content.conf"
 NORD_TMUX_STATUS_CONTENT_NO_PATCHED_FONT_FILE="src/nord-status-content-no-patched-font.conf"
 NORD_TMUX_STATUS_CONTENT_OPTION="@nord_tmux_show_status_content"
 NORD_TMUX_NO_PATCHED_FONT_OPTION="@nord_tmux_no_patched_font"
-_current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+_current_dir="${0:a:h}"
 
 __cleanup() {
   unset -v NORD_TMUX_COLOR_THEME_FILE NORD_TMUX_VERSION
@@ -31,7 +31,7 @@ __load() {
   local status_content=$(tmux show-option -gqv "$NORD_TMUX_STATUS_CONTENT_OPTION")
   local no_patched_font=$(tmux show-option -gqv "$NORD_TMUX_NO_PATCHED_FONT_OPTION")
 
-  if [ "$(tmux show-option -gqv "clock-mode-style")" == '12' ]; then
+  if [[ "$(tmux show-option -gqv "clock-mode-style")" == '12' ]]; then
     tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%I:%M %p"
   else
     tmux set-environment -g NORD_TMUX_STATUS_TIME_FORMAT "%H:%M"
