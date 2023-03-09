@@ -1,6 +1,6 @@
 <p align="center"><a href="https://www.nordtheme.com/ports/tmux" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/tmux/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-tmux/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/tmux"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tmux.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+<p align="center"><a href="https://github.com/nordtheme/tmux/releases/latest"><img src="https://img.shields.io/github/release/nordtheme/tmux.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/tmux"><img src="https://img.shields.io/github/release/nordtheme/tmux.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/tmux">Nord tmux</a> — An arctic, north-bluish clean and elegant <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
 
@@ -8,7 +8,7 @@
 
 # 0.3.0
 
-![Release Date: 2019-06-03](https://img.shields.io/badge/Release_Date-2019--06--03-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-vim/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-vim/milestone/4)
+![Release Date: 2019-06-03](https://img.shields.io/badge/Release_Date-2019--06--03-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.03.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/tmux/milestone/4)
 
 ## Features
 
@@ -86,7 +86,7 @@ set -g @nord_tmux_show_status_content "0"
 ↠ Added a space character to the first and last status bar element in order to improve the visual appearance to make it look not so squeezed together.
 
 **MIT License** — #19 ⇄ #20 (⊶ 4d39639a)
-↠ Adapted to the MIT license migration of the Nord project. Detailed information can be found in the main task ticket [arcticicestudio/nord#55][].
+↠ Adapted to the MIT license migration of the Nord project. Detailed information can be found in the main task ticket [nordtheme/nord#55][].
 
 # 0.2.0
 
@@ -98,7 +98,7 @@ _2017-04-22_
 
 ❯ Implemented support for the [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight) _prefix_- and `copy-mode` status indicator. (@kepbod, #3, 166c8956)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight-copy-mode.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/tmux/develop/src/assets/scrot-plugin-support-tmux-prefix-highlight-copy-mode.png"/></p>
 
 # 0.1.1
 
@@ -106,7 +106,7 @@ _2017-04-21_
 
 ## Bug Fixes
 
-❯ Fixed the plugin to be not loadable due to the missing `#!/usr/bin/env bash` hashbang and `+x` permission flag for the plugin loader [`nord.tmux`](https://github.com/arcticicestudio/nord-tmux/blob/develop/nord.tmux) which caused `tpm` to exit with code `126`. (@arcticicestudio, #4, c049da5e)
+❯ Fixed the plugin to be not loadable due to the missing `#!/usr/bin/env bash` hashbang and `+x` permission flag for the plugin loader [`nord.tmux`](https://github.com/nordtheme/tmux/blob/develop/nord.tmux) which caused `tpm` to exit with code `126`. (@svengreb, #4, c049da5e)
 
 # 0.1.0
 
@@ -114,20 +114,20 @@ _2017-04-20_
 
 ## Features
 
-Detailed information about features and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-tmux/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-tmux/wiki).
+Detailed information about features and install instructions can be found in the [README](https://github.com/nordtheme/tmux/blob/develop/readme.md#installation).
 
-❯ Implemented the main color theme file [`nord.conf`](https://github.com/arcticicestudio/nord-tmux/blob/develop/src/nord.conf). (@arcticicestudio, #1, e759aedc)
+❯ Implemented the main color theme file [`nord.conf`](https://github.com/nordtheme/tmux/blob/develop/src/nord.conf). (@svengreb, #1, e759aedc)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-tmux/develop/src/assets/scrot-top.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/tmux/develop/src/assets/scrot-top.png"/></p>
 
-❯ Implemented the [`tpm`](https://github.com/tmux-plugins/tpm) plugin loader [`nord.tmux`](https://github.com/arcticicestudio/nord-tmux/blob/develop/nord.tmux). (@arcticicestudio, #2, e58b52e9)
+❯ Implemented the [`tpm`](https://github.com/tmux-plugins/tpm) plugin loader [`nord.tmux`](https://github.com/nordtheme/tmux/blob/develop/nord.tmux). (@svengreb, #2, e58b52e9)
 
 # 0.0.0
 
 _2016-04-20_
 ❯ **Project Initialization**
 
-[arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[nordtheme/nord#55]: https://github.com/nordtheme/nord/issues/55
 [gh-user-drzel]: https://github.com/drzel
 [gh-user-dylnmc]: https://github.com/dylnmc
 [gh-user-petrhosek]: https://github.com/petrhosek
