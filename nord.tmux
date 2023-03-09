@@ -1,12 +1,5 @@
-#!/usr/bin/env bash
-# Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2017-present Sven Greb <development@svengreb.de>
-
-# Project:    Nord tmux
-# Repository: https://github.com/arcticicestudio/nord-tmux
-# License:    MIT
-# References:
-#   https://tmux.github.io
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
 NORD_TMUX_COLOR_THEME_FILE=src/nord.conf
 NORD_TMUX_VERSION=0.3.0
