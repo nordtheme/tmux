@@ -8,6 +8,8 @@
  * @see https://github.com/okonet/lint-staged#configuration
  */
 module.exports = {
-  "*.{conf,js,md}": "prettier --check",
-  "*.md": ["remark --no-stdout", "prettier --check"],
+  "*.{json,tmux}": "prettier --check --ignore-unknown --no-editorconfig",
+  "*.js": ["eslint", "prettier --check --ignore-unknown --no-editorconfig"],
+  "*.md": ["remark --no-stdout", "prettier --check --ignore-unknown --no-editorconfig"],
+  ".husky/pre-*": "prettier --check --ignore-unknown --no-editorconfig",
 };

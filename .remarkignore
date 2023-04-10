@@ -4,4 +4,4 @@
 # Path match pattern to ignore when searching for files.
 # See https://github.com/unifiedjs/unified-engine/blob/HEAD/doc/ignore.md for more details.
 
-**/node_modules/*
+node_modules/

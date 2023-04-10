@@ -7,7 +7,18 @@
  * Configurations for Prettier.
  * @see https://prettier.io/docs/en/configuration.html
  * @see https://prettier.io/docs/en/options.html
+ * @see https://prettier.io/docs/en/options.html#parser
+ * @see https://prettier.io/docs/en/plugins.html
+ * @see https://github.com/un-ts/prettier/tree/master/packages/sh
  */
 module.exports = {
   printWidth: 160,
+  overrides: [
+    {
+      files: [".husky/*", "*.tmux"],
+      options: {
+        parser: "sh",
+      },
+    },
+  ],
 };

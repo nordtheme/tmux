@@ -4,4 +4,5 @@
 # Path match pattern to ignore (i.e. not reformat) certain files and folders.
 # See https://prettier.io/docs/en/ignore for more details.
 
-**/node_modules/*
+.husky/_/
+node_modules/
