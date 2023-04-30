@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/tmux" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/tmux/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/tmux" target="_blank"><img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/tmux/repository-hero.svg?sanitize=true"/></a></p>
 
 <p align="center"><a href="https://github.com/nordtheme/tmux/releases/latest"><img src="https://img.shields.io/github/release/nordtheme/tmux.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/tmux"><img src="https://img.shields.io/github/release/nordtheme/tmux.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
 
@@ -44,7 +44,7 @@ It can be used facing rendering problems with incompatible terminals or fonts.
 set -g @nord_tmux_no_patched_font "1"
 ```
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#patched-font-characters" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/src/assets/images/ports/tmux/config-no-patched-font.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#patched-font-characters" target="_blank"><img src="https://raw.githubusercontent.com/nordtheme/web/main/src/assets/images/ports/tmux/config-no-patched-font.png"/></a></p>
 
 **Optional Status Bar Content** — #7, #10 ⇄ #8, #12 (⊶ 27754979) by [@tsroten][gh-user-tsroten] and [@rgcr][gh-user-rgcr]
 ↠ Added a new theme configuration to [disable the default predefined status bar content][nord-docs-config-default-content], allowing to customize the status content, e.g. adding other plugins or adjust the layout, by setting the `@nord_tmux_show_status_content` variable to `0`:
@@ -53,7 +53,7 @@ set -g @nord_tmux_no_patched_font "1"
 set -g @nord_tmux_show_status_content "0"
 ```
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#default-status-bar-content" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/src/assets/images/ports/tmux/config-no-status-bar-content.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/tmux/configuration#default-status-bar-content" target="_blank"><img src="https://raw.githubusercontent.com/nordtheme/web/main/src/assets/images/ports/tmux/config-no-status-bar-content.png"/></a></p>
 
 ## Improvements
 
@@ -136,5 +136,5 @@ _2016-04-20_
 [gh-user-tsroten]: https://github.com/tsroten
 [nord-docs-config-default-content]: https://www.nordtheme.com/docs/ports/tmux/configuration#default-status-bar-content
 [nord-docs-config-font-no-patched]: https://www.nordtheme.com/docs/ports/tmux/configuration#patched-font-characters
-[nord-docs#153]: https://github.com/arcticicestudio/nord-docs/pull/153
+[nord-docs#153]: https://github.com/nordtheme/web/pull/153
 [nord]: https://www.nordtheme.com
