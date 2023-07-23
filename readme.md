@@ -47,6 +47,10 @@
   </a>
 </p>
 
+
+## Personalization
+* Display currently playing track: The script can retrieve and display information about the currently playing track on Spotify, such as the song name, artist, and album.
+
 ## Getting Started
 
 Visit the [official website][nord-home] to learn all about the [fluidly merging appearance][nord-home#intro] features, details and elements of [UI elements][nord-home#ui-elements], the [various theme configurations][nord-home#configurations] and the [support for plugins][nord-home#plugin-support].
