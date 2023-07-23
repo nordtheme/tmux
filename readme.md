@@ -50,10 +50,11 @@
 
 ## Personalization
 * Display currently playing track: The script can retrieve and display information about the currently playing track on Spotify, such as the song name, artist, and album.
+* Display weather:  wttr.in is a popular open-source weather service that provides weather information.
 
 <p align="center">
   <a href="https://www.nordtheme.com/ports/tmux" target="_blank">
-    <img src="./img/nord_spotify.png"/>
+    <img src="./img/nord_status.png"/>
   </a>
 </p>
 
