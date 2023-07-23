@@ -1,0 +1,1 @@
+/Users/afreisinger/.dotfiles/common-setup/config/tmux/scripts/weather.sh
