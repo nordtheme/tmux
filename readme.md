@@ -51,6 +51,7 @@
 ## Personalization
 * Display currently playing track: The script can retrieve and display information about the currently playing track on Spotify, such as the song name, artist, and album.
 * Display weather:  wttr.in is a popular open-source weather service that provides weather information.
+* Pomodoro timer can be a great way to manage your time effectively while working on tasks or projects.
 
 <p align="center">
   <a href="https://www.nordtheme.com/ports/tmux" target="_blank">
