@@ -47,6 +47,19 @@
   </a>
 </p>
 
+
+## Personalization
+* Display currently playing track: The script can retrieve and display information about the currently playing track on Spotify, such as the song name, artist, and album.
+* Display weather:  wttr.in is a popular open-source weather service that provides weather information.
+* Pomodoro timer can be a great way to manage your time effectively while working on tasks or projects.
+
+<p align="center">
+  <a href="https://www.nordtheme.com/ports/tmux" target="_blank">
+    <img src="./img/nord_status.png"/>
+  </a>
+</p>
+
+
 ## Getting Started
 
 Visit the [official website][nord-home] to learn all about the [fluidly merging appearance][nord-home#intro] features, details and elements of [UI elements][nord-home#ui-elements], the [various theme configurations][nord-home#configurations] and the [support for plugins][nord-home#plugin-support].
